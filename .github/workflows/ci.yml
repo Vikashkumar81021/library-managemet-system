@@ -2,9 +2,9 @@ name: LMS CI Pipeline
 
 on:
   push:
-    branches: [dev-production]
+    branches: [main]
   pull_request:
-    branches: [dev-production]
+    branches: [main]
 
 jobs:
   build-and-test:
